@@ -7,10 +7,10 @@ function calcular(){
     if (h > 50){
         e = ((h - 50)* 20);
         st = s + e
-        alert("Salário total: "+ st +", Sálario recebido por horas extras: " + e + ", Horas trabalhadas: " + h);
+        alert("Salario total: "+ st +", Salario recebido por horas extras: " + e + ", Horas trabalhadas: " + h);
     }
     else{
         st = s
-        alert("Sálario total: " + st + ", Horas trabalhadas: " + h);
+        alert("Salario total: " + st + ", Horas trabalhadas: " + h);
     }
 }
